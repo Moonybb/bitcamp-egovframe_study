@@ -1,0 +1,5 @@
+eclipse.m2.defaultRuntime=local
+eclipse.m2.runtimes=local
+eclipse.m2.runtimesNodes/local/location=/usr/local/Cellar/maven/3.6.3_1/libexec
+eclipse.m2.runtimesNodes/local/type=EXTERNAL
+eclipse.preferences.version=1
