@@ -45,12 +45,8 @@ public class ResultAction extends ActionSupport implements Preparable, ModelDriv
 
 	@Override
 	public void validate() {
-		if(bean.getSabun()==0) {
-			addFieldError("sabun", "사번이 비었거나 숫자가 아닙니다");
-		}
-		if(bean.getName().isEmpty()) {
-			addFieldError("name", "이름을 반드시 입력하세요");
-		}
-	}	
+
+		addFieldError("sabun", "사번 메시지....");
+	}
 
 }
