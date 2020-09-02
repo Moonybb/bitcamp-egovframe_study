@@ -1,0 +1,5 @@
+package com.bit.emp.model.entity;
+
+public class EmpVo {
+
+}
