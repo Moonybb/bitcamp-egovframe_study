@@ -31,6 +31,18 @@
     	<action name="eadd">
     		<result>/emp/form.jsp</result>
     	</action>
+    	<action name="einsert" class="com.bit.emp.action.AddAction">
+    		<interceptor-ref name="prepare"/>
+    		<interceptor-ref name="modelDriven"/>
+    		<interceptor-ref name="params"/>
+			<result type="redirectAction" name="success">emp</result>
+    	</action>
+    	<action name="edelete" class="com.bit.emp.action.DeleteAction">
+    		<interceptor-ref name="prepare"/>
+    		<interceptor-ref name="modelDriven"/>
+    		<interceptor-ref name="params"/>
+    		<result type="redirectAction" name="success">emp</result>
+    	</action>
     </package>
     
     

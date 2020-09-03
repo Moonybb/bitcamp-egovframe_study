@@ -61,6 +61,24 @@ public class EmpDao {
 			}
 			return null;
 		}
+	}
+	
+	public void insertOne(EmpVo bean) throws ClassNotFoundException, SQLException {
+		String sql = "insert into emp (name, sub, nalja, pay) values (?,?,now(),?)";
+			Connection conn = getConnection();
+			PreparedStatement pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, bean.getName());
+			pstmt.setString(2, bean.getSub());
+			pstmt.setInt(3, bean.getPay());
+			pstmt.executeUpdate();
+	}
+	
+	public void deleteOne(int sabun) throws ClassNotFoundException, SQLException {
+		String sql = "delete from emp where sabun=?";
 		
+		Connection conn = getConnection();
+		PreparedStatement pstmt = conn.prepareStatement(sql);
+		pstmt.setInt(1, sabun);
+		pstmt.executeUpdate();
 	}
 }
