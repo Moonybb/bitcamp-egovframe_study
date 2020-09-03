@@ -20,7 +20,16 @@
     <package name="dept" extends="basic">
     	<action name="dept" class="com.bit.dept.action.ListAction">
     		<interceptor-ref name="params"/>
-    		<result>/dept/list.jsp</result>
+    		<result name="success">/dept/list.jsp</result>
+    	</action>
+    	<action name="dadd">
+    		<result>/dept/add.jsp</result>
+    	</action>
+    	<action name="dinsert" class="com.bit.dept.action.AddAction">
+    		<interceptor-ref name="prepare"/>
+    		<interceptor-ref name="modelDriven"/>
+    		<interceptor-ref name="params"/>
+    		<result type="redirectAction" >dept</result>
     	</action>
     </package>
 

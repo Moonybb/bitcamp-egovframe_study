@@ -36,8 +36,7 @@
 	  <div class="col-md-12">
 	  	<div class="jumbotron">
 		  <h1>DEPT LIST PAGE!</h1>
-		  <p>...</p>
-		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		  <p><a class="btn btn-primary btn-lg" href="dadd.action" role="button">입력</a></p>
 		</div>
 	  </div>
 		<table class="table">
