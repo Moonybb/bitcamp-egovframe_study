@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!doctype html>
 <html>
 <head>
@@ -33,11 +35,32 @@
 	</div>
 	<div class="row" id="content">
 	  <div class="col-md-12">
-	  	<div class="jumbotron">
-		  <h1>EMP LIST PAGE!</h1>
-		  <p>...</p>
-		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		<div class="page-header">
+		  <h1>사원테이블 <small>EMP TABLE</small></h1>
 		</div>
+	  	<table class="table table-hover">
+	  		<thead>
+		  		<tr>
+		  			<th>sabun</th>
+		  			<th>sub</th>
+		  			<th>name</th>
+		  			<th>nalja</th>
+		  			<th>pay</th>
+		  		</tr>
+	  		</thead>
+	  		<tbody>
+		  		<c:forEach items="${list }" var="bean">
+		  		<tr>
+		  			<td><a href="edetail.action?sabun=${bean.sabun }">${bean.sabun }</a></td>
+		  			<td><a href="edetail.action?sabun=${bean.sabun }">${bean.sub }</a></td>
+		  			<td><a href="edetail.action?sabun=${bean.sabun }">${bean.name }</a></td>
+		  			<td><a href="edetail.action?sabun=${bean.sabun }"><fmt:formatDate value="${bean.nalja }" pattern="yy/MM/dd"/></a></td>
+		  			<td><a href="edetail.action?sabun=${bean.sabun }"><fmt:formatNumber value="${bean.pay }" pattern="###,###원" /></a></td>
+		  		</tr>
+		  		</c:forEach>
+	  		</tbody>
+	  	</table>
+	  	<a href="eadd.action" class="btn btn-primary" role="btn">입력</a>
 	  </div>
 	</div>
 	<div class="row" id="footer">
