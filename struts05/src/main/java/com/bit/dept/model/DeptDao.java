@@ -14,8 +14,8 @@ import com.bit.dept.model.entity.DeptVo;
 public class DeptDao {
 	Logger log=Logger.getGlobal();
 	private String url="jdbc:mysql://localhost:3306/xe?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
-	private String user="root";
-	private String password="mysql";
+	private String user="scott";
+	private String password="tiger";
 	Connection conn;
 	
 	public DeptDao() throws Exception {
@@ -56,9 +56,9 @@ public class DeptDao {
 	}
 
 	public DeptVo selectOne(int deptno) throws SQLException {
-		final String SQL = "SELECT * FROM DEPT WHERE DEPTNO=?";
+		String sql = "SELECT * FROM DEPT WHERE DEPTNO=?";
 		try {
-			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, deptno);
 			ResultSet rs = pstmt.executeQuery();
 			if(rs.next())
@@ -71,4 +71,17 @@ public class DeptDao {
 		return null;
 	}
 
+	public void updateOne(DeptVo bean) throws SQLException {
+	      String sql="update dept set dname=?,loc=? where deptno=?";
+	      try {
+	         PreparedStatement pstmt = conn.prepareStatement(sql);
+	         pstmt.setString(1, bean.getDname());
+	         pstmt.setString(2, bean.getLoc());
+	         pstmt.setInt(3, bean.getDeptno());
+	         pstmt.executeUpdate();
+	         
+	      }finally {
+	         if(conn!=null)conn.close();
+	      }
+	   }
 }

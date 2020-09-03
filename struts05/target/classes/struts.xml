@@ -29,7 +29,8 @@
     		<interceptor-ref name="prepare"/>
     		<interceptor-ref name="modelDriven"/>
     		<interceptor-ref name="params"/>
-    		<result type="redirectAction" >dept</result>
+    		<result type="redirectAction" name="input">/dept/add.jsp</result>
+    		<result type="redirectAction" name="success">/dept</result>
     	</action>
     	<action name="ddetail" class="com.bit.dept.action.OneAction">
     		<interceptor-ref name="params"/>
@@ -38,6 +39,24 @@
     	<action name="dedit" class="com.bit.dept.action.OneAction">
     		<interceptor-ref name="params"/>
     		<result>/dept/edit.jsp</result>
+    	</action>
+    	<action name="dupdate" class="com.bit.dept.action.EditAction">
+    		<!-- 값을 비워놓고 넘어가면 안되게끔 하기 위함 -->
+    		<interceptor-ref name="prepare"/>
+          	<interceptor-ref name="modelDriven"/>
+          	<interceptor-ref name="params"/>
+          	<interceptor-ref name="validation"/>
+          	<interceptor-ref name="workflow"/>
+			<!-- input일때(값이 비어있을 때) action을 타면 안되기 때문에 redirectAction을 통해 dedit Action으로 보낸다 -->
+			<result name="input" type="redirectAction">
+				<param name="deptno">${bean.deptno}</param>
+				<param name="actionName">dedit</param>
+			</result>
+			<!-- 값이 정확히 들어갔을때 수정 가능하도록 scccess result -->
+			<result name="success" type="redirectAction">
+				<param name="deptno">${bean.deptno}</param>
+				<param name="actionName">ddetail</param>
+			</result>
     	</action>
     </package>
 

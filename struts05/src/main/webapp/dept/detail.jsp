@@ -55,7 +55,7 @@
 					<h1>DEPT DETAIL PAGE!</h1>
 				</div>
 			</div>
-			<form action="update.action" method="post">
+			<form action="dupdate.action" method="post">
 				<div class="form-group">
 					<label for="deptno">DEPTNO</label> 
 					<input type="text" class="form-control" name="deptno" id="deptno" value="${bean.deptno }" readonly/>
