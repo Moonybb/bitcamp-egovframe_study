@@ -13,6 +13,12 @@
     	#menu>div,#footer{
     		background-color: darkgray;
     	}
+    	tr > td:first-child{
+    		width: 100px;
+    	}
+    	td > a {
+    		display: block;
+    	}
     </style>
     <!-- loading jquery -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
@@ -47,9 +53,9 @@
 			</tr>
 			<c:forEach items="${list }" var="bean">
 			<tr>
-				<td>${bean.deptno }</td>
-				<td>${bean.dname }</td>
-				<td>${bean.loc }</td>
+				<td><a href="ddetail.action?deptno=${bean.deptno }">${bean.deptno }</a></td>
+				<td><a href="ddetail.action?deptno=${bean.deptno }">${bean.dname }</a></td>
+				<td><a href="ddetail.action?deptno=${bean.deptno }">${bean.loc }</a></td>
 			</tr>
 			</c:forEach>
 		</table>

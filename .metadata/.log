@@ -9501,3 +9501,6 @@ org.eclipse.jface.resource.DeviceResourceException: Unable to create resource UR
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-09-03 10:27:12.522
 !MESSAGE The POM for org.apache.commons:commons-lang3:jar:3.8.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-03 10:36:18.133
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

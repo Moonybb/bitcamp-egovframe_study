@@ -31,6 +31,14 @@
     		<interceptor-ref name="params"/>
     		<result type="redirectAction" >dept</result>
     	</action>
+    	<action name="ddetail" class="com.bit.dept.action.OneAction">
+    		<interceptor-ref name="params"/>
+    		<result>/dept/detail.jsp</result>
+    	</action>
+    	<action name="dedit" class="com.bit.dept.action.OneAction">
+    		<interceptor-ref name="params"/>
+    		<result>/dept/edit.jsp</result>
+    	</action>
     </package>
 
 </struts>
