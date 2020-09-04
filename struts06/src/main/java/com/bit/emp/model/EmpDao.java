@@ -19,7 +19,7 @@ public class EmpDao {
 			reader = Resources.getResourceAsReader("SqlMapConfig.xml");
 			smc=SqlMapClientBuilder.buildSqlMapClient(reader);
 		} catch (IOException e) {
-			System.out.println("파일 못 읽음...");
+			e.printStackTrace();
 		}
 	}
 
