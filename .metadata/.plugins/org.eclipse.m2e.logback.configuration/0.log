@@ -6058,3 +6058,295 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2020-09-04 11:28:29,249 [Worker-729: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts06
 2020-09-04 11:28:29,249 [Worker-729: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts06
 2020-09-04 11:28:29,251 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:33:20,269 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:33:20,270 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:33:20,271 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:33:20,271 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:33:36,094 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:33:36,094 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:33:36,095 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:33:36,095 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:34:29,301 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:34:29,301 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:34:29,301 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:34:29,302 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:34:55,086 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:34:55,086 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:34:55,086 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:34:55,086 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:35:19,748 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:35:19,748 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:35:19,748 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:35:19,748 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:36:03,056 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:36:03,056 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:36:03,056 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:36:03,056 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:36:29,985 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:36:29,985 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:36:29,985 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:36:29,985 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:39:33,723 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:39:33,724 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:39:33,725 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:39:33,725 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:39:41,394 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:39:41,394 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:39:41,395 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:39:41,395 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:41:55,370 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:41:55,371 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 11:41:55,372 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:41:55,372 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:42:19,850 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:19,850 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:42:19,851 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:19,851 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:42:26,986 [Worker-745: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:26,987 [Worker-745: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:42:26,987 [Worker-745: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:26,987 [Worker-745: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:42:44,169 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:44,170 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:42:44,170 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:44,170 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:42:45,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:45,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:42:45,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:45,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:42:58,163 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:58,163 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:42:58,165 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:42:58,165 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:43:05,924 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:43:05,924 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:43:05,925 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:43:05,925 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:43:12,396 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:43:12,397 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:43:12,409 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:43:12,409 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:44:27,161 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:44:27,161 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:44:27,162 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:44:27,162 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:44:58,498 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:44:58,498 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:44:58,498 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:44:58,498 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:45:16,494 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:16,494 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:45:16,495 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:16,495 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:45:48,481 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:48,482 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:45:48,482 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:48,482 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:45:50,752 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:50,752 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:45:50,752 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:45:50,752 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:46:02,908 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:02,908 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:46:02,909 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:02,909 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:46:06,169 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:06,170 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:46:06,170 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:06,170 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:46:24,529 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:24,529 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 11:46:24,531 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:46:24,531 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:48:00,700 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:48:00,700 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:48:00,701 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:48:00,701 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:48:04,250 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:48:04,251 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:48:04,252 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:48:04,252 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:49:55,448 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:49:55,449 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:49:55,449 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:49:55,449 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:50:00,023 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:50:00,023 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:50:00,024 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:50:00,024 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:51:23,940 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:51:23,941 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:51:23,941 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:51:23,941 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:55:07,374 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:55:07,374 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 11:55:07,375 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:55:07,375 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:55:29,795 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:55:29,795 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:55:29,796 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:55:29,796 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:56:01,716 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:01,717 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:56:01,717 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:01,717 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:56:05,033 [Worker-750: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:05,033 [Worker-750: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:56:05,034 [Worker-750: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:05,034 [Worker-750: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:56:07,041 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:07,042 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:56:07,042 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:07,042 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:56:36,992 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:36,993 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:56:36,993 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:36,993 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:56:45,775 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:45,775 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:56:45,775 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:56:45,775 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:58:42,425 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:58:42,426 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:58:42,426 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:58:42,426 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:59:07,964 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:07,964 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:59:07,965 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:07,965 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:59:11,560 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:11,560 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:59:11,561 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:11,561 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 11:59:20,365 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:20,365 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 11:59:20,365 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 11:59:20,365 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:00:35,151 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:00:35,151 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:00:35,152 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:00:35,152 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:01:25,086 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:01:25,087 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 12:01:25,088 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:01:25,088 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:01:42,197 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:01:42,198 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:01:42,199 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:01:42,199 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:03:08,487 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:03:08,488 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:03:08,488 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:03:08,488 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:03:45,262 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:03:45,262 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:03:45,263 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:03:45,263 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:05:54,719 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:05:54,720 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:05:54,720 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:05:54,720 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:06:26,203 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:26,203 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 12:06:26,204 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:26,204 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:06:39,264 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:39,265 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 12:06:39,265 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:39,265 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:06:47,034 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:47,034 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-04 12:06:47,035 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:06:47,035 [Worker-752: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:08:07,857 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:07,857 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:08:07,857 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:07,857 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:08:16,038 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:16,039 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:08:16,039 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:16,039 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:08:29,665 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:29,665 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:08:29,666 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:29,666 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:08:44,249 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:44,250 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:08:44,250 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:08:44,250 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:10:00,779 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:10:00,780 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:10:00,781 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:10:00,781 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:10:48,472 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:10:48,473 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:10:48,473 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:10:48,473 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:12:26,782 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:12:26,783 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-04 12:12:26,783 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:12:26,783 [Worker-762: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:14:11,968 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:11,969 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:14:11,969 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:11,970 [Worker-756: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:14:18,177 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:18,177 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:14:18,178 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:18,178 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:14:51,212 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:51,213 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:14:51,213 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:14:51,213 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:17:47,174 [Worker-769: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:17:47,174 [Worker-769: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:17:47,175 [Worker-769: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:17:47,175 [Worker-769: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:18:01,979 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:01,979 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:18:01,980 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:01,980 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:18:05,907 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:05,907 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:18:05,908 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:05,908 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:18:10,330 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:10,331 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:18:10,331 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:18:10,331 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:19:57,314 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:19:57,315 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:19:57,315 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:19:57,315 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:20:47,774 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:20:47,775 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:20:47,775 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:20:47,775 [Worker-759: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:21:49,899 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:21:49,900 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:21:49,900 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:21:49,900 [Worker-772: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:22:24,588 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:22:24,589 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:22:24,589 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:22:24,589 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:22:26,623 [Worker-774: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:22:26,623 [Worker-774: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:22:26,624 [Worker-774: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:22:26,624 [Worker-774: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:23:00,996 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:23:00,997 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:23:00,997 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:23:00,997 [Worker-764: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:23:02,150 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:23:02,150 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:23:02,151 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:23:02,151 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:35:34,372 [Worker-776: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:35:34,374 [Worker-776: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:35:34,374 [Worker-776: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:35:34,374 [Worker-776: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources
+2020-09-04 12:35:39,379 [Worker-780: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:35:39,380 [Worker-780: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-09-04 12:35:39,380 [Worker-780: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-04 12:35:39,380 [Worker-780: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/moony/Desktop/webWorkspace_2/struts06/src/test/resources

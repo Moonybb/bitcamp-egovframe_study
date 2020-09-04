@@ -522,3 +522,6 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-09-04 11:28:29.185
 !MESSAGE The POM for org.apache.commons:commons-lang3:jar:3.8.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-09-04 11:37:17.803
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.

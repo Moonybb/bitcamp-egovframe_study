@@ -1,4 +1,6 @@
 INDEX VERSION 1.131
+/Users/moony/Desktop/webWorkspace_2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3980947617.index
+/struts06/src/main/java
 /Users/moony/Desktop/webWorkspace_2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2154130845.index
 /struts06/src/main/java
 /Users/moony/Desktop/webWorkspace_2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3556718105.index
