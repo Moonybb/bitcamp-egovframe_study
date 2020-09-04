@@ -5,13 +5,12 @@ import java.sql.Timestamp;
 public class EmpVo {
 
 	private int sabun;
-	private String name, sub;
+	private String name,sub;
 	private Timestamp nalja;
 	private int pay;
 	
 	public EmpVo() {
 	}
-	
 
 	public EmpVo(int sabun, String name, String sub, Timestamp nalja, int pay) {
 		super();
@@ -21,8 +20,6 @@ public class EmpVo {
 		this.nalja = nalja;
 		this.pay = pay;
 	}
-
-
 
 	public int getSabun() {
 		return sabun;
@@ -68,6 +65,5 @@ public class EmpVo {
 	public String toString() {
 		return "EmpVo [sabun=" + sabun + ", name=" + name + ", sub=" + sub + ", nalja=" + nalja + ", pay=" + pay + "]";
 	}
-
 	
 }
