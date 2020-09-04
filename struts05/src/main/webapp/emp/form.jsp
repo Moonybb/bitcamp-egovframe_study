@@ -63,7 +63,7 @@
 	<div class="row" id="content">
 	  <div class="col-md-12">
 		<div class="page-header">
-		  <h1>상세페이지 <small>${bean.sabun }</small></h1>
+		  <h1>상세페이지 <small> </small></h1>
 		</div>
 	  	<form class="form-horizontal" action="">
 		  <div class="form-group">
