@@ -1,13 +1,12 @@
 package com.bit.framework.emp.model;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import com.bit.framework.emp.model.entity.EmpVo;
@@ -38,20 +37,31 @@ public class EmpDao extends JdbcDaoSupport{
 
 	public List<EmpVo> selectAll() throws SQLException {
 		String sql = "select * from emp";
-		List<EmpVo> list = new ArrayList<EmpVo>();
-		try (
-//				Connection conn = DriverManager.getConnection(url, user, password);
-				Connection conn = getConnection();
-				PreparedStatement pstmt = conn.prepareStatement(sql);
-				ResultSet rs = pstmt.executeQuery();
-				) {
-			while(rs.next())
-				list.add(new EmpVo(
-							rs.getInt("sabun"),rs.getString("name"),rs.getString("sub")
-							,rs.getTimestamp("nalja"),rs.getInt("pay")
-						));
-		}
-		return list;
+		
+		return getJdbcTemplate().query(sql,new RowMapper<EmpVo>() {
+
+			@Override
+			public EmpVo mapRow(ResultSet rs, int rowNum) throws SQLException {
+				return new EmpVo(
+						rs.getInt("sabun"),rs.getString("name"),rs.getString("sub")
+						,rs.getTimestamp("nalja"),rs.getInt("pay")
+						);
+			}
+		});
+		
+//		List<EmpVo> list = new ArrayList<EmpVo>();
+//		try (
+////				Connection conn = DriverManager.getConnection(url, user, password);
+//				Connection conn = getConnection();
+//				PreparedStatement pstmt = conn.prepareStatement(sql);
+//				ResultSet rs = pstmt.executeQuery();
+//				) {
+//			while(rs.next())
+//				list.add(new EmpVo(
+//							rs.getInt("sabun"),rs.getString("name"),rs.getString("sub")
+//							,rs.getTimestamp("nalja"),rs.getInt("pay")
+//						));
+//		}
 	}
 
 	public void insertOne(String name, String sub, int pay) throws SQLException {
@@ -71,22 +81,34 @@ public class EmpDao extends JdbcDaoSupport{
 //		}
 	}
 
-	public EmpVo selectOne(int parseInt) throws SQLException {
+	public EmpVo selectOne(int sabun) throws SQLException {
 		String sql="select * from emp where sabun=?";
-		try(
-//				Connection conn=DriverManager.getConnection(url, user, password);
-				Connection conn = getConnection();
-				PreparedStatement pstmt=conn.prepareStatement(sql);
-				){
-			pstmt.setInt(1, parseInt);
-			ResultSet rs=pstmt.executeQuery();
-			if(rs.next())
+		return getJdbcTemplate().queryForObject(sql, new Object[] {sabun},new RowMapper<EmpVo>() {
+
+			@Override
+			public EmpVo mapRow(ResultSet rs, int rowNum) throws SQLException {
 				return new EmpVo(
 						rs.getInt("sabun"),rs.getString("name"),rs.getString("sub")
 						,rs.getTimestamp("nalja"),rs.getInt("pay")
 						);
-		}
-		return null;
+			}
+		});
+		
+		
+//		try(
+////				Connection conn=DriverManager.getConnection(url, user, password);
+//				Connection conn = getConnection();
+//				PreparedStatement pstmt=conn.prepareStatement(sql);
+//				){
+//			pstmt.setInt(1, parseInt);
+//			ResultSet rs=pstmt.executeQuery();
+//			if(rs.next())
+//				return new EmpVo(
+//						rs.getInt("sabun"),rs.getString("name"),rs.getString("sub")
+//						,rs.getTimestamp("nalja"),rs.getInt("pay")
+//						);
+//		}
+//		return null;
 	}
 
 	public int updateOne(int sabun, String name, String sub, int pay) throws SQLException {
