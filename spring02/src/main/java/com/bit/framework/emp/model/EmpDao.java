@@ -39,7 +39,7 @@ public class EmpDao extends JdbcDaoSupport{
 		String sql = "select * from emp";
 		
 		return getJdbcTemplate().query(sql,new RowMapper<EmpVo>() {
-
+			
 			@Override
 			public EmpVo mapRow(ResultSet rs, int rowNum) throws SQLException {
 				return new EmpVo(
@@ -125,5 +125,10 @@ public class EmpDao extends JdbcDaoSupport{
 //			pstmt.setInt(3, pay);
 //			return pstmt.executeUpdate();
 //		}
+	}
+	
+	public int deleteOne(int sabun) {
+		String sql = "delete from emp where sabun=?";
+		return getJdbcTemplate().update(sql,new Object[] {sabun});
 	}
 }
