@@ -11,14 +11,19 @@ import java.util.List;
 import com.bit.framework.emp.model.entity.EmpVo;
 
 public class EmpDao {
-
-	private String url="jdbc:mysql://localhost:3306/xe?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false";
+	private String driver="com.mysql.cj.jdbc.Driver";
+	private String url;
 	private String user = "scott";
 	private String password = "tiger";
 	
-	public EmpDao() {
+	public EmpDao(String driver, String url, String user, String password) {
+		this.driver = driver;
+		this.url = url;
+		this.user = user;
+		this.password = password;
+		System.out.println("create DAO...");
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName(driver);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}

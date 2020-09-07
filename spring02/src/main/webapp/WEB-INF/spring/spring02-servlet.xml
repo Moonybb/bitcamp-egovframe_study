@@ -3,6 +3,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+	<bean id="emp" class="com.bit.framework.emp.model.EmpDao" scope="singleton">
+		<constructor-arg value="com.mysql.cj.jdbc.Driver"></constructor-arg>
+		<constructor-arg value="jdbc:mysql://localhost:3306/xe?characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;useSSL=false" ></constructor-arg>
+		<constructor-arg value="scott"></constructor-arg>
+		<constructor-arg value="tiger"></constructor-arg>
+	</bean>
+	
 	<!--handlermapping -->
 	<bean id="handlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
 	
@@ -10,9 +17,16 @@
 		<property name="viewName" value="index"></property>
 	</bean>
 	
-	<bean name="/emp/list.bit" class="com.bit.framework.emp.controller.ListController"></bean>
+	<bean name="/emp/list.bit" class="com.bit.framework.emp.controller.ListController">
+		<property name="dao">
+			<ref bean="emp"/>
+		</property>
+	</bean>
 	
-	<bean name="/emp/add.bit" class="com.bit.framework.emp.controller.AddController"></bean>
+	<bean name="/emp/add.bit" class="com.bit.framework.emp.controller.AddController">
+		<property name="dao" ref="emp">
+		</property>
+	</bean>
 	
 	<!-- viewResolver -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
