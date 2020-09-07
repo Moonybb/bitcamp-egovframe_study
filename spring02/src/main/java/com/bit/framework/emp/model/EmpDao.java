@@ -8,32 +8,40 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+
 import com.bit.framework.emp.model.entity.EmpVo;
 
-public class EmpDao {
-	private String driver="com.mysql.cj.jdbc.Driver";
-	private String url;
-	private String user = "scott";
-	private String password = "tiger";
+public class EmpDao extends JdbcDaoSupport{
 	
-	public EmpDao(String driver, String url, String user, String password) {
-		this.driver = driver;
-		this.url = url;
-		this.user = user;
-		this.password = password;
-		System.out.println("create DAO...");
-		try {
-			Class.forName(driver);
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
+	public EmpDao() {
 	}
+	
+	
+//	private String driver="com.mysql.cj.jdbc.Driver";
+//	private String url;
+//	private String user = "scott";
+//	private String password = "tiger";
+	
+//	public EmpDao(String driver, String url, String user, String password) {
+//		this.driver = driver;
+//		this.url = url;
+//		this.user = user;
+//		this.password = password;
+//		System.out.println("create DAO...");
+//		try {
+//			Class.forName(driver);
+//		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+//		}
+//	}
 
 	public List<EmpVo> selectAll() throws SQLException {
 		String sql = "select * from emp";
 		List<EmpVo> list = new ArrayList<EmpVo>();
 		try (
-				Connection conn = DriverManager.getConnection(url, user, password);
+//				Connection conn = DriverManager.getConnection(url, user, password);
+				Connection conn = getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql);
 				ResultSet rs = pstmt.executeQuery();
 				) {
@@ -49,7 +57,8 @@ public class EmpDao {
 	public void insertOne(String name, String sub, int pay) throws SQLException {
 		String sql = "insert into emp (name,sub,nalja,pay) values (?,?,now(),?)";
 		try(
-				Connection conn = DriverManager.getConnection(url, user, password);
+//				Connection conn = DriverManager.getConnection(url, user, password);
+				Connection conn = getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql);
 				){
 			pstmt.setString(1, name);
@@ -62,7 +71,8 @@ public class EmpDao {
 	public EmpVo selectOne(int parseInt) throws SQLException {
 		String sql="select * from emp where sabun=?";
 		try(
-				Connection conn=DriverManager.getConnection(url, user, password);
+//				Connection conn=DriverManager.getConnection(url, user, password);
+				Connection conn = getConnection();
 				PreparedStatement pstmt=conn.prepareStatement(sql);
 				){
 			pstmt.setInt(1, parseInt);
@@ -79,7 +89,8 @@ public class EmpDao {
 	public int updateOne(int sabun, String name, String sub, int pay) throws SQLException {
 		String sql = "update emp set name=?, sub=?, pay=? where sabun=?";
 		try(
-				Connection conn = DriverManager.getConnection(url,user,password);
+//				Connection conn = DriverManager.getConnection(url,user,password);
+				Connection conn = getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql);
 				){
 			pstmt.setInt(4, sabun);
