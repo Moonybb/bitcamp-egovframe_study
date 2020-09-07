@@ -1,4 +1,3 @@
-
 <%@ page language="java" pageEncoding="utf-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -46,11 +45,11 @@
 		  		</thead>
 		  		<c:forEach items="${alist }" var="bean">
 		  			<tr>
-		  				<td>${bean.sabun }</td>
-		  				<td>${bean.sub }</td>
-		  				<td>${bean.name }</td>
-		  				<td>${bean.nalja }</td>
-		  				<td>${bean.pay }</td>
+		  				<td><a href="detail.bit?idx=${bean.sabun }">${bean.sabun }</a></td>
+		  				<td><a href="detail.bit?idx=${bean.sabun }">${bean.sub }</a></td>
+		  				<td><a href="detail.bit?idx=${bean.sabun }">${bean.name }</a></td>
+		  				<td><a href="detail.bit?idx=${bean.sabun }">${bean.nalja }</a></td>
+		  				<td><a href="detail.bit?idx=${bean.sabun }">${bean.pay }</a></td>
 		  			</tr>
 		  		</c:forEach>
 		  	</table>

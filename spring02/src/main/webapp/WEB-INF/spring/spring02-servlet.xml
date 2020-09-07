@@ -13,20 +13,27 @@
 	<!--handlermapping -->
 	<bean id="handlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
 	
+	<!-- index page -->
 	<bean name="/index.bit" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
 		<property name="viewName" value="index"></property>
 	</bean>
 	
+	<!-- list page -->
 	<bean name="/emp/list.bit" class="com.bit.framework.emp.controller.ListController">
 		<property name="dao">
 			<ref bean="emp"/>
 		</property>
 	</bean>
 	
+	<!-- add page -->
 	<bean name="/emp/add.bit" class="com.bit.framework.emp.controller.AddController">
-		<property name="dao" ref="emp">
-		</property>
+		<property name="dao" ref="emp"/>
 	</bean>
+	
+	<!-- detail page -->
+	<bean name="/emp/detail.bit" class="com.bit.framework.emp.controller.DetailController">
+		<property name="dao" ref="emp"/>
+	</bean> 
 	
 	<!-- viewResolver -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
