@@ -6,3 +6,5 @@ spring03/target/m2e-wtp/web-resources/META-INF/maven/com.bit.framework/spring03/
 spring03/target/m2e-wtp/web-resources/META-INF/maven/com.bit.framework/spring03/pom.xml
 spring03/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 spring03/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+
+spring03/target
