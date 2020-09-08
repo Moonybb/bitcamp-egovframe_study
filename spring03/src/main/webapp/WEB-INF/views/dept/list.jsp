@@ -53,6 +53,7 @@
 			  			</c:forEach>
 			  		</tbody>
 			  	</table>
+			  	<p><a href="add.bit" class="btn btn-primary" role="btn">입력</a></p>
 			  </div>
 			</div>
 		</div>

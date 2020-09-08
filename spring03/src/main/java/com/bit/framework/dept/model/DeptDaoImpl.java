@@ -25,8 +25,9 @@ public class DeptDaoImpl extends JdbcDaoSupport implements DeptDao  {
 
 	@Override
 	public void insertOne(DeptVo bean) throws SQLException {
-		// TODO Auto-generated method stub
-
+		String sql = "insert into dept (dname, loc) values (?,?)";
+		getJdbcTemplate().update(sql, new Object[] {bean.getDname(),bean.getLoc()});
+		
 	}
 
 	@Override
