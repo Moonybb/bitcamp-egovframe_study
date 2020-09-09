@@ -14,8 +14,9 @@ public class Module02 {
 		this.console = console;
 	}
 	
-	public void func01() {
+	public int func01(int a, int b) {
 		console.sayHello();
+		return 1234;
 	}
 	
 	public void func02() {
@@ -24,6 +25,7 @@ public class Module02 {
 			System.out.print(arr[i]+":");
 			console.sayHi();
 		}
+//		int su = 1 / 0;
 	}
 }
 

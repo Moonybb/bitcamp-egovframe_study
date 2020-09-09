@@ -1,104 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-   <!-- DI 의존성주입
-   <bean id="consoleService" class="com.bit.framework.service.EngConsoleService"></bean>
-   
-   
-      <bean id="module02" class="com.bit.framework.service.Module02">
-      <property name="console" ref="consoleService"></property>
-   </bean> -->
-   <!-- <bean id="module02" class="com.bit.framework.service.Module02" scope="singleton">
-      <constructor-arg ref="consoleService"></constructor-arg>
-   </bean> -->
-   
-   <!-- <bean id="module03" class="com.bit.framework.service.Module03">
-      <property name="sabun" value="1234"></property>
-      <property name="su2" value="3.14"></property>
-      <property name="name" value="abcd"></property>
-      <property name="tf" value="true"></property>
-      <property name="ch" value="@"></property>
-   </bean> 
-   
-   
-   <bean id="module" class="com.bit.framework.service.Module04">
-      <property name="arr1">
-         <array>
-            <value>a</value>
-            <value>ab</value>
-            <value>abc</value>
-            <value>abcd</value>
-            <value>abcde</value>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- DI 의존성주입 <bean id="consoleService" class="com.bit.framework.service.EngConsoleService"></bean> 
+		<bean id="module02" class="com.bit.framework.service.Module02"> <property 
+		name="console" ref="consoleService"></property> </bean> -->
+	<!-- <bean id="module02" class="com.bit.framework.service.Module02" scope="singleton"> 
+		<constructor-arg ref="consoleService"></constructor-arg> </bean> -->
 
-         </array>
-      </property>
-      <property name="list">
-         <list>
-            <value>A</value>
-            <value>AB</value>
-            <value>ABC</value>
-            <value>ABCD</value>
-            <value>ABCDE</value>
+	<!-- <bean id="module03" class="com.bit.framework.service.Module03"> <property 
+		name="sabun" value="1234"></property> <property name="su2" value="3.14"></property> 
+		<property name="name" value="abcd"></property> <property name="tf" value="true"></property> 
+		<property name="ch" value="@"></property> </bean> <bean id="module" class="com.bit.framework.service.Module04"> 
+		<property name="arr1"> <array> <value>a</value> <value>ab</value> <value>abc</value> 
+		<value>abcd</value> <value>abcde</value> </array> </property> <property name="list"> 
+		<list> <value>A</value> <value>AB</value> <value>ABC</value> <value>ABCD</value> 
+		<value>ABCDE</value> </list> </property> <property name="set"> <set> <value>AAA</value> 
+		<value>BBB</value> <value>CCC</value> <value>DDD</value> <value>EEE</value> 
+		</set> </property> <property name="map"> <props> <prop key="KEY1">VAL1</prop> 
+		<prop key="KEY2">VAL2</prop> <prop key="KEY3">VAL3</prop> <prop key="KEY4">VAL4</prop> 
+		</props> </property> <property name=""></property> <map> <entry key="key1"> 
+		<value>val1</value> </entry> <entry key="key2"> <value>val2</value> </entry> 
+		<entry key="key3"> <value>val3</value> </entry> <entry key="key4"> <value>val4</value> 
+		</entry> </map> </bean> -->
 
-         </list>
-      </property>
-      <property name="set">
-         <set>
-            <value>AAA</value>
-            <value>BBB</value>
-            <value>CCC</value>
-            <value>DDD</value>
-            <value>EEE</value>
-         </set>
-      </property>
-      <property name="map">
-         <props>
-            <prop key="KEY1">VAL1</prop>
-            <prop key="KEY2">VAL2</prop>
-            <prop key="KEY3">VAL3</prop>
-            <prop key="KEY4">VAL4</prop>
-         </props>
-      </property>
-      <property name=""></property>
-          <map>
-            <entry key="key1">
-               <value>val1</value>
-            </entry>
-            <entry key="key2">
-               <value>val2</value>
-            </entry>
-            <entry key="key3">
-               <value>val3</value>
-            </entry>
-            <entry key="key4">
-               <value>val4</value>
-            </entry>
-         </map>      
-   </bean>
-          -->
-          
-   <!-- AOP --> 
-   <bean id="afterReturningAdvice" class="com.bit.framework.util.AfterModule"></bean>
-   <bean id="methodBeforeAdvice" class="com.bit.framework.util.BeforeModule02"></bean>
-   <bean id="throwsAdvice" class="com.bit.framework.util.ThrowModule"></bean>
-   <bean id="methodInterceptor" class="com.bit.framework.util.AroundModule"></bean>
-   
-   <bean id="consoleService" class="com.bit.framework.service.KorConsoleService"></bean>
-   <bean id="module02" class="com.bit.framework.service.Module02">
-      <property name="console" ref="consoleService"></property>
-   </bean>
-   <bean id="proxyBean" class="org.springframework.aop.framework.ProxyFactoryBean">
-      <property name="target" ref="module02"></property>
-      <property name="interceptorNames">
-         <array>
-            <value>methodInterceptor</value>
-            <!-- 
-            <value>throwsAdvice</value>
-            <value>afterReturningAdvice</value>
-            <value>methodBeforeAdvice</value>
-             -->
-         </array>
-      </property>
-   </bean>
+	<!-- AOP -->
+	<bean id="afterReturningAdvice"
+		class="com.bit.framework.util.AfterModule"></bean>
+	<bean id="methodBeforeAdvice"
+		class="com.bit.framework.util.BeforeModule02"></bean>
+	<bean id="throwsAdvice" class="com.bit.framework.util.ThrowModule"></bean>
+	<bean id="methodInterceptor"
+		class="com.bit.framework.util.AroundModule"></bean>
+
+	<bean id="consoleService"
+		class="com.bit.framework.service.KorConsoleService"></bean>
+	<bean id="module02" class="com.bit.framework.service.Module02">
+		<property name="console" ref="consoleService"></property>
+	</bean>
+
+	<!-- 	
+	<bean id="pointcut"
+		class="org.springframework.aop.support.NameMatchMethodPointcut">
+		<property name="mappedName" value="func01"></property>
+	</bean> 
+	-->
+	
+	<!-- ex setPatterns(".*.*(..)"); -->
+	<!-- ex setPatterns("com.abc.service.*.*(..)"); -->
+	<!-- ex setPatterns(".*Class~.*(..)"); -->
+	<!-- ex setPatterns(".*.*method"); -->
+	<!-- 
+	<bean id="pointcut" class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+		<property name="pattern" value="com.bit.framework.service.*Module02.*02*"></property>
+	</bean>
+
+	<bean id="advisor"
+		class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="pointcut" ref="pointcut"></property>
+		<property name="advice" ref="methodBeforeAdvice"></property>
+	</bean>
+	 -->
+	 
+	<bean id="pointcutAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="patterns">
+			<array>
+				<value>.*.*</value>
+			</array>
+		</property>
+		<property name="advice" ref="methodInterceptor"></property>
+	</bean>
+
+	<bean id="proxyBean"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="module02"></property>
+		<property name="interceptorNames">
+			<array>
+				<value>pointcutAdvisor</value>
+				<!-- <value>afterReturningAdvice</value> <value>throwsAdvice</value> 
+					<value>methodInterceptor</value> -->
+			</array>
+		</property>
+	</bean>
 </beans>

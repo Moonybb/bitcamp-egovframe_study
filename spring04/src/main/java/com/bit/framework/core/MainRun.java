@@ -32,7 +32,7 @@ public class MainRun {
 		
 //		AOP(관점지향 프로그래밍,Aspect Oriented Programming)
 		Module02 module=(Module02) ac.getBean("proxyBean");
-		module.func01();
+		module.func01(1234,4321);
 		module.func02();
 	}
 
