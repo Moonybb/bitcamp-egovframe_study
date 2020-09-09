@@ -7,3 +7,16 @@ spring02/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
 spring02/target/
 /.recommenders/
 spring03/target/*
+spring04/target/classes/com/bit/framework/model/entity/DeptDao.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao01Impl$1.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao01Impl.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl$1.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl$2.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl$3.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl$4.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl$5.class
+spring04/target/classes/com/bit/framework/model/entity/DeptDao02Impl.class
+spring04/target/classes/com/bit/framework/model/entity/DeptVo.class
+spring04/target/classes/com/bit/framework/service/ConsoleServiece.class
+spring04/target/classes/com/bit/framework/service/DeptService.class
+spring04/target/classes/com/bit/framework/service/DeptService01Impl.class

@@ -6,8 +6,6 @@ public class Module03 {
 	String name;
 	boolean tf;
 	char ch;
-	
-	
 	public void setSabun(int sabun) {
 		this.sabun = sabun;
 	}
